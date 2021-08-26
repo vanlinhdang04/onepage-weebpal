@@ -1,0 +1,6 @@
+@mixin font($fontName, $src) {
+  @font-face {
+    font-family: $fontName;
+    src: $src;
+  }
+}
